@@ -4,11 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:personal-portfolio": "node dist/personal-portfolio/server/server.mjs",
-    "build:ssr": "ng build --configuration=production && ng run personal-portfolio:server:production"
+    "serve:ssr:personal-portfolio": "node dist/personal-portfolio/server/server.mjs"
   },
   "prettier": {
     "overrides": [
