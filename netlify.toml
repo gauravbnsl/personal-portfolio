@@ -1,7 +1,7 @@
 [build]
   command = "npm run build:ssr"
   commandOrigin = "config"
-  publish = "/opt/build/repo/dist/personal-portfolio/browser"
+  publish = "dist/personal-portfolio/browser"
   publishOrigin = "config"
 
 [[plugins]]
