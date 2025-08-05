@@ -1,10 +1,10 @@
+[build]
+  command = "npm run build:ssr"
+  commandOrigin = "config"
+  publish = "/opt/build/repo/dist/personal-portfolio/browser"
+  publishOrigin = "config"
 
-  build:
-     command: npm run build:ssr
-     commandOrigin: config
-     publish: /opt/build/repo/dist/personal-portfolio/browser
-     publishOrigin: config
-   plugins:
-     - inputs: {}
-       origin: config
-       package: "@netlify/angular-runtime"
+[[plugins]]
+  package = "@netlify/angular-runtime"
+  origin = "config"
+  [plugins.inputs]
