@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  color: #33302c;
+  margin: 0;
+  background-color: rgb(252, 248, 241);
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 2rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+.section {
+  padding: 2rem 0;
+}
+h2 {
+  color: rgba(168, 161, 145, .9);
+  padding-bottom: 0.5rem;
+  font-weight: normal;
+}
